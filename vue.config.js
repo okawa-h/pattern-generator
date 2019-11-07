@@ -9,7 +9,7 @@ const TEMPLATE_PARAMS = {
 };
 
 module.exports = {
-  outputDir: "./docs",
+  publicPath: "pattern-generator/dist/",
   css: {
     loaderOptions: {
       sass: {
