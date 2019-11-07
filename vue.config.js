@@ -31,5 +31,9 @@ module.exports = {
         });
       });
     });
+  },
+  devServer: {
+    contentBase: path.join(__dirname, "pattern-generator/dist/"),
+    port: 3000
   }
 };
