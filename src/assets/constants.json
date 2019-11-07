@@ -1,6 +1,6 @@
 {
-  "SITE_ORIGIN": "https://okawa-h.github.io/pattern-generator/",
-  "BASE_PATH": "/",
+  "SITE_ORIGIN": "https://okawa-h.github.io/",
+  "BASE_PATH": "/pattern-generator/",
   "META": {
     "TITLE": "Pattern Generator",
     "DESCRIPTION": "Patterner.",
