@@ -1,0 +1,38 @@
+@import "../../../node_modules/reset-css/sass/reset";
+@import "variable";
+@import "function";
+@import "mixin";
+@import "keyframes";
+
+body {
+  -webkit-font-smoothing: antialiased;
+  touch-action: manipulation;
+  font-family: "Press Start 2P", cursive;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Press Start 2P", cursive;
+}
+
+a {
+  cursor: pointer;
+}
+
+.title {
+  margin-bottom: 5px;
+  color: $font;
+  font-size: 14px;
+}
+
+.name {
+  margin-right: 5px;
+  color: $font;
+  font-size: 14px;
+}

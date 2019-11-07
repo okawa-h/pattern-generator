@@ -1,0 +1,10 @@
+{
+  "SITE_ORIGIN": "https://okawa-h.github.io/pattern-generator/",
+  "BASE_PATH": "/",
+  "META": {
+    "TITLE": "Pattern Generator",
+    "DESCRIPTION": "Patterner.",
+    "KEYWORDS": "html,css,pattern,generator",
+    "SHARE_IMAGE_PATH": "ogp.png"
+  }
+}
