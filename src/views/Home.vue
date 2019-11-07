@@ -5,7 +5,11 @@
       .board(ref="board")
         .board-inner
           canvas(ref="canvas" @click="onDraw")
-      TheSetting(ref="setting" @setupBoard="setupBoard" :maxLength="maxLength")
+      TheSetting(
+        ref="setting"
+        :maxLength="maxLength"
+        @setupBoard="setupBoard"
+      )
       TheResult(ref="result")
 </template>
 

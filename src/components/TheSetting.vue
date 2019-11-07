@@ -3,22 +3,48 @@
     .setting-size
       p.title Width
       .setting-size-item
-        label: input(name="column" type="range" :max="maxLength" min="1" @input="onInput")
+        label
+          input(
+            name="column"
+            type="range"
+            :value="columnLength"
+            :max="maxLength"
+            min="1"
+            @input="onInput"
+          )
         p.setting-size-value {{ columnLength }}px
       p.title Height
       .setting-size-item
-        label: input(name="row" type="range" :max="maxLength" min="1" @input="onInput")
+        label
+          input(
+            name="row"
+            type="range"
+            :value="rowLength"
+            :max="maxLength"
+            min="1"
+            @input="onInput"
+          )
         p.setting-size-value {{ rowLength }}px
       p.title Paint Mode
       ul.setting-mode
         li
           label(for="setting-mode-paint")
             p.name Paint
-            input#setting-mode-paint(name="paintMode" type="radio" value="paint" v-model="paintMode")
+            input#setting-mode-paint(
+              name="paintMode"
+              type="radio"
+              value="paint"
+              v-model="paintMode"
+            )
         li
           label(for="setting-mode-eraser")
             p.name Eraser
-            input#setting-mode-eraser(name="paintMode" type="radio" value="eraser" v-model="paintMode")
+            input#setting-mode-eraser(
+              name="paintMode"
+              type="radio"
+              value="eraser"
+              v-model="paintMode"
+            )
     .setting-colors
       p.title Color
       TheChromePicker(v-model="colors")

@@ -2,7 +2,7 @@ export const increment = ({ commit }, val = 1) => {
   commit("increment", val);
 };
 
-export const updateColumnLength = ({ commit }, val = 30) => {
+export const updateColumnLength = ({ commit }, val = 10) => {
   commit("updateColumnLength", val);
 };
 
